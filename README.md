@@ -34,4 +34,5 @@ python -m spacy download en_core_web_sm
     Now we have the basic workflow covered, this tutorial will focus on improving our results. We'll cover: using packed padded sequences, loading and using pre-trained word embeddings, different optimizers, different RNN architectures, bi-directional RNNs, multi-layer (aka deep) RNNs and regularization.
 
 * 3 - [Faster Sentiment Analysis](https://github.com/pdtrung1994/python-project-FastText/blob/main/Sentiment_Analysis.ipynb)
+
     After we've covered all the fancy upgrades to RNNs, we'll look at a different approach that does not use RNNs. More specifically, we'll implement the model from Bag of Tricks for Efficient Text Classification. This simple model achieves comparable performance as the Upgraded Sentiment Analysis, but trains much faster.
